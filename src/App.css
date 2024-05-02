@@ -1,0 +1,27 @@
+body{ 
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #121212;
+  color: white;
+}
+
+.Main{ 
+  display: flex; 
+  height: 100vh;
+}
+
+.side{ 
+ 
+  flex: 2;
+  color: white;
+
+}
+.Timeline{
+   
+   flex: 6;
+}
+.Suggestions{ 
+ 
+  flex: 3;
+}
