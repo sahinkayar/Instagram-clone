@@ -1,0 +1,113 @@
+.Timeline-header{ 
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+   margin-top: 40px;
+}
+.Timeline-header > span:nth-child(1){ 
+ margin: 0px 25px;
+} 
+.Followings{ 
+  color: gray;
+}
+hr{ 
+   border-color: gray;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.Avatars{ 
+    display: flex;
+    flex-direction: row;
+    margin: 29px 0px 0px 40px;
+    
+    justify-content: start;
+}
+.Avatars >span { 
+    margin: 9px;
+   
+}
+.Post-Title{ 
+    display: flex;
+    justify-content: space-between;}
+.Post-left{ 
+        display: flex;
+        align-items: center;
+        margin-left: 4px;
+}
+.Post-Container{
+    margin: 40px 180px;
+}
+.title{ 
+    margin-left: 4px;
+
+    font-family: monospace;
+    font-size: 17px;
+}
+.more{ 
+    display: flex;
+    align-items: center;
+}
+.img-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+img{
+   height: 600px;
+    width: calc(-2px + min(470px, 100vw));
+    border-radius: 8px;
+    margin-top: -30px;
+}
+.bottom{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin:0px 170px;
+  margin-top: -60px;
+ 
+}
+.btm-left{ 
+    margin: 3px;
+}
+.btm-left > * {
+    margin: 0px 8px;
+  }
+.Desc-box{
+    position: relative;
+    padding: 50px;
+
+  }
+  .Likes{ 
+    position: absolute;
+    left: 190px;
+    top: 0px;
+  }
+  
+  
+  .desc-div{ 
+    position: absolute;
+    top: 20px;
+    left: 190px;
+  }
+  .Desc-title{
+ 
+    font-family: monospace;
+
+  }
+  .Desc-titlex{
+    font-size: 17px;
+    font-weight: bolder;
+  }
+  .desc{ 
+
+    font-family: monospace;
+  }
+  .bold{
+    font-weight: bold ;
+    font-size: 12px;
+    font-family: monospace;
+  }
+  .See-comments{
+    color: gray;
+  }
